@@ -74,11 +74,20 @@
 		"out": false
 	},
 	"typescript.tsc.autoDetect": "off",
+	"typescript.tsdk": "node_modules\\typescript\\lib",
+	"editor.stickyScroll.enabled": true,
+    "markdown.updateLinksOnFileMove.enabled": "prompt",
+    "gitlens.codeLens.enabled": false,
 	"cSpell.words": [
 		"kalimahapps"
 	],
 	"[jsonc]": {
 		"editor.defaultFormatter": "vscode.json-language-features"
 	},
-	"typescript.tsdk": "node_modules\\typescript\\lib",
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
 }
