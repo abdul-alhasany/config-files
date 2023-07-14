@@ -25,7 +25,7 @@
 		"**/dist": true,
 		"**/build": true,
 		"**/coverage": true,
-		"**/docs": true,
+		"**/docs": true
 	},
 	"eslint.codeAction.showDocumentation": {
 		"enable": true
@@ -89,5 +89,5 @@
     },
     "[scss]": {
         "editor.defaultFormatter": "vscode.css-language-features"
-    },
+    }
 }
